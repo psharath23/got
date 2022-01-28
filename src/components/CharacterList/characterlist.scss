@@ -1,22 +1,27 @@
-.character-list {
+.character-list-container {
+  input[type="text"] {
+    padding: 5px 10px 5px 10px;
+    border: solid 1px grey;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+  }
+  .character-list {
     text-align: center;
     display: flex;
     overflow: auto;
-    input[type="text"] {
-        padding: 5px 10px 5px 10px;
-        border: none;
-        margin-bottom: 10px;
-    }
     .character {
-        margin: 20px;
-        border: solid 0.5px grey;
-        border-radius: 10px;
-        list-style-type: none;
-        padding: 10px;
-        img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-        }
+      margin: 20px;
+      border: solid 0.5px grey;
+      border-radius: 10px;
+      list-style-type: none;
+      padding: 10px;
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
     }
+  }
 }
